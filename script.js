@@ -75,19 +75,3 @@ function generateWeaponWithAnimation(index) {
     }
   }, 20);
 }
-
-function generateExtraWithAnimation(index) {
-  const button = document.querySelector(`button[onclick='generateExtraWithAnimation(${index})']`);
-  const element = document.getElementById(`num${index}`);
-  button.disabled = true;
-  let count = 0;
-  const interval = setInterval(() => {
-    element.textContent = extras[Math.floor(Math.random() * extras.length)];
-    count++;
-    if (count > 20) {
-      clearInterval(interval);
-      element.textContent = extras[Math.floor(Math.random() * extras.length)];
-      button.disabled = false;
-    }
-  }, 20);
-}
