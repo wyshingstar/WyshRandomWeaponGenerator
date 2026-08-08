@@ -56,7 +56,7 @@ const extras = [
 ];
 
 
-const partMap = [base, head, ears, eyes, nose, legs, feet, tail, coat, colour];
+const partMap = [type, size, age, material, element, style, extras];
 
 function generateWeaponWithAnimation(index) {
   const button = document.querySelector(`button[onclick='generateWeaponWithAnimation(${index})']`);
