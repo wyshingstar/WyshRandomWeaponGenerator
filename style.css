@@ -1,6 +1,6 @@
     body {
       margin: 0;
-      padding: 0;
+      padding: 5px;
       display: flex;
       justify-content: center;
       align-items: flex-start;
@@ -8,7 +8,7 @@
       background-color: #FFFAD4;
     }
     .handlee-regular {
-      font-family: "Handlee", cursive;
+      font-family: "Handlee", cursive, san-serif;
       font-weight: 400;
       font-style: normal;
     }
@@ -22,7 +22,7 @@
       margin-top: 100px;
     }
     .title {
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: bold;
       margin-bottom: 5px;
     }
