@@ -1,5 +1,19 @@
 const type = [
-  "sword", 
+  "glove", "hand wrap", "knuckles", "claw", "tanto", "karambit", "dagger", "shiv", "kunai", "chakram", "shuriken", 
+  "swiss army knife", "mezzaluna", "santoku knife", "cleaver", "dagger", "katar", "stiletto", "kris", "shortsword", "dao",
+  "falchion", "xiphos", "cutlass", "scimitar", "khopesh", "longsword", "wakizashi", "ninjato", "katana", "claymore", "rapier", 
+  "sabre", "zweihander", "bastard", "flamberge", "jian", "warbrand", "shamshir", "club", "kanabo", "shillelagh", "macuahuitl", 
+  "baton", "tonfa", "boomerang", "morning star", "flanged mace", "trench club", "maul", "throwing hammer", "otsuchi", "tomahawk", "warhammer", 
+  "battle axe", "labrys", "double-headed battle axe", "greataxe", "hand axe", "epsilon", "hatchet", "sai", "swordbreaker",
+  "pike", "spear", "swordstaff", "naginata", "guandao", "bardiche", "glaive", "halberd", "tiger fork", "lance", "kontos", "javelin", 
+  "pilum", "atlatl", "harpoon", "quarterstaff", "khakkara", "staff", "scepter", "wand", "scythe", "sickle", "war fan", "bull whip", 
+  "chain whip", "cat o'nine tails", "flail", "chain mace", "nunchaku", "flying claw", "flying  guillotine", "shovel", "spade", 
+  "rake", "pipe wrench", "crowbar", "handsaw", "bone saw", "chainsaw", "power drill", "nail gun", "frying pan", "rolling pin", 
+  "torch", "cane", "umbrella", "table leg", "candlestick", "baseball bat", "golf club", "lute", "longbow", "shortbow", "compound bow", 
+  "hand crossbow", "repeating crossbow", "arbalest", "compound crossbow", "blowgun", "sling", "lasso", "bolas", "caltrops", "spikes", 
+  "bomb", "grenade", "dynamite", "taser", "molotov cocktail", "musket", "blunderbuss", "hand cannon", "revolver", "pistol", "shotgun", 
+  "pump action shotgun", "flintlock", "assault rifle", "sniper rifle", "tranquilizer gun", "submachine gun", "light machine gun", 
+  "rocket launcher", "panzerfaust", "flamethrower", "plasma gun", "lightsaber", "gunblade", "keyblade", 
  
 ];
 
@@ -31,7 +45,7 @@ const style = [
   "dwarven", "ninja", "pirate", "cute", "elegant", "alien", "beast", "tribal", "minimalist", "art deco", 
   "contemporary", "crystalline", "space", "cyberpunk", "steampunk", "superhero", "comic", "heaven", "hell", 
   "european", "asian", "mesoamerican", "native", "viking", "gladiator", "scientific", "junk", "industrial", 
-  "historical", "handmade", "primitive", "toy"
+  "historical", "handmade", "primitive", "toy", "horror movie", "zombie apocalypse", 
 ];
 
 const extras = [
